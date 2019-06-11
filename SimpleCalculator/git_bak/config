@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Abdulbaqy/SimpleCalculator.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = moop
+	merge = refs/heads/master
+[remote "github"]
+	url = https://github.com/Abdulbaqy/VerySimpleCalculator.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "moop"]
+	url = https://github.com/Abdulbaqy/testmoop.git
+	fetch = +refs/heads/*:refs/remotes/moop/*
